@@ -47,7 +47,7 @@ p{
     line-height: 24px;
     width: 304px;
     margin-top: 16px;
-    letter-spacing: 0.3px;
+    text-align: center;
 }
 button{
     margin-top: 24px;
@@ -73,18 +73,10 @@ footer{
 @media(min-width:1440px){
     body{
         background-image:url(./images/bg-desktop.svg);
-        height: 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     main{
         flex-direction: row;
         gap: 59px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
     .logo{
         width: 190px;
@@ -103,14 +95,13 @@ footer{
         margin-top: 60px;
     }
     p{
-        font-size:18px ;
+        font-size:18px;
         line-height: 27px;
         width: 520px;
-        margin-top: 60px;
+        height: 81px;
         margin-top: 24px;
         color: rgb(224, 199, 223);
-        letter-spacing: 0px;
-        font-style: regular;
+        text-align: left;
     }
     button{
         width: 200px;
