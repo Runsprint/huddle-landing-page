@@ -1,0 +1,76 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./images/bg-mobile.svg);
+    background-color:  #684BB1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.pics{
+    display: flex;
+    flex-direction: column; 
+}
+.mockup{
+    width: 296px;
+    margin-top: 69.8px;
+}
+.logo{
+    padding-top: 38px;
+    width: 120px;
+}
+.content{
+    color:  #FFFFFF;
+    text-align: center;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:24px ;
+    line-height: 36px;
+    width: 280px;
+    margin-top: 60px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size:16px;
+    line-height: 24px;
+    width: 304px;
+    margin-top: 16px;
+    letter-spacing: 0.3px;
+}
+button{
+    margin-top: 24px;
+    width: 200px;
+    height: 40px;
+    background-color: 
+    #FFFFFF;
+    border-radius: 20px;
+    border:none;
+    color: #684BB1;
+    font-size: 12px;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 20px 1px;
+
+    
+
+}
+footer{
+    padding-top: 64px;
+    display: flex;
+    gap: 15.61px;
+    padding-bottom: 40px;
+}
+@media(min-width:1440px){
+    body{
+        background-image:url(./images/bg-desktop.svg);
+    }
+}
