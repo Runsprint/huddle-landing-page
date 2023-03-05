@@ -14,6 +14,7 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 .pics{
     display: flex;
@@ -72,5 +73,64 @@ footer{
 @media(min-width:1440px){
     body{
         background-image:url(./images/bg-desktop.svg);
+        height: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
+    main{
+        flex-direction: row;
+        gap: 59px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .logo{
+        width: 190px;
+    }
+    .mockup{
+        width:696px;
+        height: 493px;
+    }
+    .content{
+        text-align: left;
+    }
+    h1{
+        font-size:40px ;
+        line-height: 60px;
+        width: 487px;
+        margin-top: 60px;
+    }
+    p{
+        font-size:18px ;
+        line-height: 27px;
+        width: 520px;
+        margin-top: 60px;
+        margin-top: 24px;
+        color: rgb(224, 199, 223);
+        letter-spacing: 0px;
+        font-style: regular;
+    }
+    button{
+        width: 200px;
+        height: 56px;
+        border-radius: 28px;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    button:hover{
+        background-color: #E880E8;
+        cursor: pointer;
+        color: #FFFFFF;
+    }
+    .logo2:hover{
+        background-color: #E880E8;
+        cursor: pointer;
+    }
+    footer{
+        position: relative;
+        left: 600px;
+    }
+
 }
